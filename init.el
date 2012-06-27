@@ -19,3 +19,7 @@
 (dolist (p my-packages)
   (when (not (package-installed-p p))
     (package-install p)))
+
+(add-hook 'clojure-mode-hook
+   (lambda ()
+     (setq inferior-lisp-program "lein2 repl")))

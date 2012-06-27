@@ -11,6 +11,6 @@ $ git clone git://github.com/cldwalker/emacs.d.git ~/.emacs.d
 
 Start your OS:
 
-```
+```sh
 $ emacs
 ```
