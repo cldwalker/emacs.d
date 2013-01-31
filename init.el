@@ -22,4 +22,4 @@
 
 (add-hook 'clojure-mode-hook
    (lambda ()
-     (setq inferior-lisp-program "lein2 repl")))
+     (setq inferior-lisp-program "lein repl")))
