@@ -3,3 +3,5 @@
 
 (when (not (package-installed-p 'nrepl))
     (package-install 'nrepl))
+
+(global-linum-mode t)
