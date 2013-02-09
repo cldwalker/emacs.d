@@ -3,4 +3,8 @@
 
 (global-linum-mode t)
 
+(defun revert-buffer-no-confirm ()
+  "Revert buffer without confirmation."
+  (interactive) (revert-buffer t t))
+
 (global-set-key (kbd "C-x f") 'find-file-in-project)
