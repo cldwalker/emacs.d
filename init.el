@@ -13,6 +13,7 @@
                       starter-kit-ruby
                       starter-kit-js
                       clojure-mode
+                      clojure-test-mode
                       nrepl
                       )
   "A list of packages to ensure are installed at launch.")
