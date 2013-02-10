@@ -15,6 +15,7 @@
                       clojure-mode
                       clojure-test-mode
                       nrepl
+                      markdown-mode
                       )
   "A list of packages to ensure are installed at launch.")
 
