@@ -16,6 +16,7 @@
                       clojure-test-mode
                       nrepl
                       markdown-mode
+                      haml-mode
                       )
   "A list of packages to ensure are installed at launch.")
 
